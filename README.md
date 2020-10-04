@@ -1,6 +1,6 @@
 <p align="center"><img width='270px' src="https://github.com/RelaxedJS/ReLaXed/raw/master/logo-blue.png" /></p>
 
-# ReLaXed
+# RELAXED
 
 [![Build Status](https://travis-ci.org/RelaxedJS/ReLaXed.svg?branch=master)](https://travis-ci.org/RelaxedJS/ReLaXed)
 
@@ -10,7 +10,7 @@ Here it is in action in the Atom editor:
 
 <p align='center'><img src="https://i.imgur.com/4N4fSYY.gif" title="source: imgur.com" /></p>
 
-And here are a few output examples:
+few examples of output are as follows:
 
 <table>
   <tr align="center">
@@ -84,11 +84,11 @@ And here are a few output examples:
   </tr>
 </table>
 
-ReLaXed has support for Markdown, LaTeX-style mathematical equations (via [MathJax](https://www.mathjax.org/)), CSV conversion to HTML tables, plot generation (via [Vega-Lite](https://vega.github.io/vega-lite/) or [Chart.js](https://www.chartjs.org/)), and diagram generation (via [mermaid](https://mermaidjs.github.io/)). Many more features can be added simply by importing an existing JavaScript or CSS framework.
+RELAXED has support for Markdown, LaTeX-style mathematical equations (via [MathJax](https://www.mathjax.org/)), CSV conversion to HTML tables, plot generation (via [Vega-Lite](https://vega.github.io/vega-lite/) or [Chart.js](https://www.chartjs.org/)), and diagram generation (via [mermaid](https://mermaidjs.github.io/)). Many more features can be added simply by importing an existing JavaScript or CSS framework.
 
-## Installing ReLaXed
+## Installing RELAXED
 
-Install ReLaXed via [NPM](https://www.npmjs.com/) with this command (do not use ``sudo``):
+Install RELAXED via [NPM](https://www.npmjs.com/) with this command (do not use ``sudo``):
 
 ```
 npm i -g relaxedjs
@@ -106,13 +106,13 @@ h1 My document's title
 p A paragraph in my document
 ```
 
-Then start ReLaXed from a terminal:
+Then start RELAXED from a terminal:
 
 ```
 relaxed my_document.pug
 ```
 
-ReLaXed will generate ``my_document.pdf`` from ``my_document.pug``, then watch its directory and subdirectories so that every time a file changes, ``my_document.pdf`` will be re-generated.
+RELAXED will generate ``my_document.pdf`` from ``my_document.pug``, then watch its directory and subdirectories so that every time a file changes, ``my_document.pdf`` will be re-generated.
 
 It is also possible to generate the PDF file just once, with no sub-sequent file-watching, with this command:
 
@@ -146,9 +146,9 @@ On the other hand, web technologies have never looked so good.
 
 ReLaXed is an attempt at finding the most comfortable way to leverage this for desktop PDF creation.
 
-## How ReLaXed works
+## How RELAXED Works
 
-ReLaXed consists of a few lines of code binding together other software. It uses [Chokidar](https://github.com/paulmillr/chokidar) to watch the file system. When a file is changed, several JavaScript libraries are used to compile SCSS, Pug, Markdown, and diagram files (mermaid, flowchart.js, Chart.js) into an HTML page which is then printed to a PDF file by a headless instance of Chromium (via [Puppeteer](https://github.com/GoogleChrome/puppeteer)).
+RELAXED consists of a few lines of code binding together other software. It uses [Chokidar](https://github.com/paulmillr/chokidar) to watch the file system. When a file is changed, several JavaScript libraries are used to compile SCSS, Pug, Markdown, and diagram files (mermaid, flowchart.js, Chart.js) into an HTML page which is then printed to a PDF file by a headless instance of Chromium (via [Puppeteer](https://github.com/GoogleChrome/puppeteer)).
 
 <p align="center"><img width='600px' src="https://github.com/RelaxedJS/ReLaXed/raw/master/docs/relaxed_stack.png" /></p>
 
@@ -229,7 +229,7 @@ const HTML2PDF = require('./HTML2PDF.js');
 
 ## Contribute!
 
-ReLaXed is an open-source framework originally written by [Zulko](https://github.com/Zulko) and released on [Github](https://github.com/RelaxedJS/ReLaXed) under the ISC licence. Everyone is welcome to contribute!
+RELAXED is an open-source framework originally written by [Zulko](https://github.com/Zulko) and released on [Github](https://github.com/RelaxedJS/ReLaXed) under the ISC licence. Everyone is welcome to contribute!
 
 For bugs and feature requests, open a Github issue. For support or Pug/HTML-related questions, ask on Stackoverflow or on the brand new [reddit/r/relaxedjs](https://www.reddit.com/r/relaxedjs/) forum, which can be used for any kind of discussion.
 
